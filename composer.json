@@ -1,0 +1,19 @@
+{
+    "name": "waltherfbg/dynamo-session",
+    "description": "AWS-DynamoDB Session Handler",
+    "type": "library",
+    "require": {
+        "php": ">=5.3.3",
+        "aws/aws-sdk-php": "^3.61"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Walther Bojaca",
+            "email": "waltherfbg@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "waltherfbg\\DynamoSession\\": "src/"}
+    }
+}
